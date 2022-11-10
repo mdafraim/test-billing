@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
 
 @Component({
   selector: 'app-header',
