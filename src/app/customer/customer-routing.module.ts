@@ -4,8 +4,8 @@ import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {path: 'custoberDetails', component: CustoberDetailsComponent},
-  {path: 'addCustober', component: AddCustoberComponent}
+  {path: 'custober-details', component: CustoberDetailsComponent},
+  {path: 'add-custober', component: AddCustoberComponent}
 ];
 
 @NgModule({
@@ -13,3 +13,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class CustomerRoutingModule { }
+   

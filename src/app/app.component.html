@@ -22,7 +22,46 @@
       <li nz-submenu nzOpen nzTitle="Custumber" nzIcon="usergroup-add">
         <ul>
           <li nz-menu-item nzMatchRouter>
-            <a>Basic Form</a>
+            <a routerLink="customer/add-custober">Add Custober</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="customer/custober-details">Custober Details</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzOpen nzTitle="Invoices" nzIcon="usergroup-add">
+        <ul>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="invoices/add-invoice">Add Invoice</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="invoices/invoice-details">Invoice Details</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzOpen nzTitle="Account" nzIcon="usergroup-add">
+        <ul>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="account/profile">Profile</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="account/edit-profile">Edit Profile</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzOpen nzTitle="Report" nzIcon="usergroup-add">
+        <ul>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="reports/expense-report">Expense Report</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="reports/profit-loss"> Profit & Loss Report</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="reports/sales-report">Sales Report</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="reports/tax-report">Tax Report</a>
           </li>
         </ul>
       </li>
